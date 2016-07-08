@@ -1,0 +1,16 @@
+#This is the code book of run_analysis.R
+#Variable List:
+ #train_set: data set of train group 
+ #train_label: activity label of train group
+ #subject_train: subject of train group
+ #test_set:: data set of test group
+ #test_label: activity label of test group
+ #subject_test: subject of test group
+ #act_label:links activity label and activity
+ #feature: names of measurements
+ #test_set_total: combine all data of test group, including activity and subject
+ #train_set_total: combine all data of train group, including activity and subject
+ #total_set: combine all train and test data.
+ #df: extract variables including "mean", "std", "subject" and "activity"
+ #df_group: group df by subject and activity
+ #final_df: mean of extracted variables by subject and activity
